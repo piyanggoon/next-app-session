@@ -38,7 +38,6 @@
     "email": "majid@sweetscript.com"
   },
   "devDependencies": {
-    "@types/cookie-signature": "^1.1.0",
     "eslint": "^8.34.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -52,10 +51,6 @@
     "next": ">=13.0.0"
   },
   "dependencies": {
-    "cookie-signature": "^1.2.1",
     "nanoid": "^4.0.2"
-  },
-  "engines": {
-    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   }
 }
