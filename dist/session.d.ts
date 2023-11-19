@@ -16,6 +16,8 @@ export declare class AppSession<T extends SessionRecord = SessionRecord> impleme
     private setCookie;
     private _getID;
     private _initID;
+    private sign;
+    private unsign;
     private encode;
     private decode;
     all(): Promise<SessionData<T> | null | undefined>;
